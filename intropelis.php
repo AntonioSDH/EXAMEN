@@ -15,10 +15,10 @@ $mi_tabla= "INSERT INTO peliculas VALUES (1,1,'Hell Boy','Accion','20'),(2,2,'WR
 // Condicional PHP que creará la tabla
 if (mysqli_query($conn, $mi_tabla)) {
 // Mostramos mensaje si la tabla ha sido actualizada correctamente!
-    echo "Tabla acualizada correctamente";
+    echo "Datos actualizados correctamente";
 } else {
     // Mostramos mensaje si hubo algún error en el proceso de creación
-    echo "Error al actualizar la tabla: " . mysqli_error($conn);
+    echo "Error al actualizar los datos: " . mysqli_error($conn);
 }
 // Cerramos la conexión
 mysqli_close($conn);
