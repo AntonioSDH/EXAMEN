@@ -17,7 +17,7 @@ id INT(10),
 id_director INT(10),
 titulo VARCHAR(300),
 genero VARCHAR(64),
-precio INT(8),
+precio INT(8)
 )";
 
 // Se verifica si la tabla ha sido creado
